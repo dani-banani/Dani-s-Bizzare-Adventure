@@ -1,0 +1,2 @@
+execute if score @s dani.anime.jojo.sex_pistol.bullet.number matches 1.. if predicate dani:percentage/35 run particle dust_color_transition{from_color:[1.000,0.776,0.051],to_color:[0.886,0.890,0.757],scale:1} ~ ~ ~ 0.067 0.067 0.067 0 1 normal
+execute if entity @e[type=marker,distance=...25,tag=sex_pistol.bullet,tag=sex_pistol_number,tag=inf] run function dani:jojo/stand/sex_pistol/moves/2/pistol/kick

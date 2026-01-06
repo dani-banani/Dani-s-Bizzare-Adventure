@@ -1,0 +1,1 @@
+execute if score @s dani.anime.selectedItemSlot matches 1 run function dani:jojo/stand/sex_pistol/moves/2/pistol/stop

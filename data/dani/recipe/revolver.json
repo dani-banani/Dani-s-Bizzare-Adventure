@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " # ",
+        "IIi",
+        "OL "
+    ],
+    "key": {
+        "#": "minecraft:purple_dye",
+        "I": "minecraft:iron_block",
+        "i": "minecraft:iron_ingot",
+        "O": "minecraft:oak_log",
+        "L": "minecraft:lever"
+    },
+    "result": {
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "minecraft:item_model": "dani:revolver",
+      "minecraft:custom_name": "Revolver",
+      "minecraft:custom_data": "{replace:true}"
+    },
+    "count": 1
+  }
+}

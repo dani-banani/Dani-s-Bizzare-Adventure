@@ -1,0 +1,1 @@
+execute if score @s dani.anime.type matches 1 run function dani:jojo/stand/off_redirect

@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "type_specific": {
+          "type": "minecraft:player",
+          "input": {
+            "sneak": true
+          }
+        },
+        "equipment": {
+          "offhand": {
+            "items": "minecraft:wooden_sword",
+            "components": {
+              "minecraft:item_model": "dani:revolver"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

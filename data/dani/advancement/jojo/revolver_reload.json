@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "Eat": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:wooden_sword",
+              "components": {
+                "minecraft:item_model": "dani:revolver"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:wooden_sword",
+          "components": {
+            "minecraft:item_model": "dani:revolver"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Eat"
+    ]
+  ],
+  "rewards": {
+    "function": "dani:jojo/weapon/revolver/reload"
+  }
+}

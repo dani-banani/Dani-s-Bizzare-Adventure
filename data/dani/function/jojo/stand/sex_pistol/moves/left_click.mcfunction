@@ -1,0 +1,1 @@
+execute if score @s dani.anime.selectedItemSlot matches 0 if items entity @s weapon.mainhand iron_nugget run function dani:jojo/weapon/revolver/shoot

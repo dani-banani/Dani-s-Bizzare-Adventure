@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "recipe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dani:revolver"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "recipe"
+    ]
+  ],
+  "rewards": {
+    "function": "dani:jojo/weapon/revolver/craft"
+  }
+}
