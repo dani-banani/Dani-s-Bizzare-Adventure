@@ -1,0 +1,1 @@
+execute if score @s dani.anime.jojo.tusk.nails matches 1.. run function dani:jojo/stand/tusk/act1/moves/spinning_nails/shoot

@@ -1,0 +1,1 @@
+execute if score @s dani.anime.jojo.tusk.current_act matches 1 run function dani:jojo/stand/tusk/act1/change_slot

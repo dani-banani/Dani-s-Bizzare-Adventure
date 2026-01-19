@@ -1,0 +1,2 @@
+execute if predicate dani:percentage/20 run particle dust{color:[0.961,0.588,1.000],scale:1.} ~ ~ ~ 0.125 0.125 0.125 0 1
+execute if predicate dani:percentage/7 run particle minecraft:cherry_leaves ~ ~.1 ~ .2 .2 .2 0 1

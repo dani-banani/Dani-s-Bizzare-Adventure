@@ -1,0 +1,2 @@
+execute if score @s dani.anime.selectedItemSlot matches 0 run function dani:jojo/stand/tusk/act1/moves/spinning_nails/shoot_check
+execute if score @s dani.anime.selectedItemSlot matches 1 run function dani:jojo/stand/tusk/act1/moves/nail_glide/start

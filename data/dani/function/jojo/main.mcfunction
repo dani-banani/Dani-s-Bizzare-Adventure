@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=dani.jojo.stand] at @s run function dani:jojo/stand/type_main

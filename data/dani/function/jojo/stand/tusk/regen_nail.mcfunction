@@ -1,0 +1,6 @@
+scoreboard players add @s dani.anime.jojo.tusk.nails 1
+execute if score @s dani.anime.jojo.tusk.nails matches 20.. run scoreboard players set @s dani.anime.jojo.tusk.nails 20
+scoreboard players set @s dani.anime.jojo.tusk.nails_cd 0
+playsound minecraft:block.creaking_heart.spawn master @a ~ ~ ~ .5 .8
+playsound minecraft:entity.breeze.charge master @a ~ ~ ~ .5 2
+title @s actionbar [{"bold":false,"color":"#F5AE07","italic":false,"strikethrough":false,"text":"<","underlined":false},{"color":"#3498C9","text":"S"},{"color":"#42A0CF","text":"p"},{"color":"#4FA9D5","text":"i"},{"color":"#5DB1DB","text":"n"},{"color":"#6AB9E1","text":"n"},{"color":"#78C2E7","text":"i"},{"color":"#85CAED","text":"n"},{"color":"#78C2E7","text":"g "},{"color":"#6AB9E1","text":"N"},{"color":"#5DB1DB","text":"a"},{"color":"#4FA9D5","text":"i"},{"color":"#3498C9","text":"l"},{"bold":false,"color":"#F5AE07","italic":false,"obfuscated":false,"strikethrough":false,"text":">","underlined":false}," - ","[ ",{"color":"white","score":{"name":"@s","objective":"dani.anime.jojo.tusk.nails"}},{"color":"#3498C9","text":" / "},{"color":"white","text":"20"}," ]"]
